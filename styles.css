@@ -1,0 +1,54 @@
+*{
+    font-family: 'Atma';
+    margin: 0;
+    padding: 0;
+    border: 0;
+    color: #2A0800;
+  background-color:#EFECCA;
+}
+
+header{
+     background-color: #385B80;
+    padding: 10 px;
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  position:sticky;
+  top:0;
+}
+
+header * {
+    font-family:'Sour Gummy';
+  background-color: #385B80;
+}
+.title{
+    font-size: 3 rem;
+  color:#CBF7ED;
+  text-shadow: 3 px 3 px 5 px #83ECD3;
+}
+a{
+    text-decoration: none;
+    color: #192939;
+    font-size:1.5 rem;
+  text-shadow: 3 px 3 px 3 px #1F3347;
+}
+hr{
+  border:2 px solid #8EA8C3;
+  margin:5 px;
+}
+.menu * {
+  font-size:1.2 rem
+}
+main{
+  height:1200 px;
+}
+.menu-title {
+ font-size: 2 rem;
+  background: linear-gradient(#290800, #385C80);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.item * {
+  background: linear-gradient(#EFECCA, #FAF9EF);
+  border-radius: 100 px;
+}
